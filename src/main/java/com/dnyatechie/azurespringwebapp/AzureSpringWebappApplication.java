@@ -16,7 +16,7 @@ public class AzureSpringWebappApplication {
 	@GetMapping("/message")
 	public String message()
 	{
-		return "Congrats you have successfully deployed to Azure webapp";
+		return "Hey Congrats your application deployed successfully deployed to Azure webapp";
 	}
 
 }
